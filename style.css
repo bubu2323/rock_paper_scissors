@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #202020 !important;
+}
+/**********
+TYPOGRAPHY
+***********/
+h1 {
+  font-size: 5rem !important;
+  font-family: "Oswald", sans-serif;
+  color: #ffee32;
+}
+.subtitle,.white {
+  font-family: "Open Sans", sans-serif;
+  color: #d6d6d6;
+}
+#showResultPlayerHere,#showResultPcHere,#showWinnerHere{
+  color: red;
+}
+/*******
+ICONS
+********/
+
+#choices {
+  margin: 0 auto;
+  max-width: 70%;
+}
+.choice {
+  margin: 0.3rem;
+}
+.choice:hover {
+  border: 2px solid #ffd100;
+  cursor: pointer;
+}
+
+span,
+a,
+.yellow {
+  color: #ffd100 !important;
+}
+.white {
+ 
+  color: white;
+  font-size: 1.3em;
+}
+
+.end-rounds{
+  opacity: 0.1;
+}
+.player-choice,.pc-choice,.result{
+  /* border: 1px solid red; */
+  padding: 0.5em;
+}
+.section-head .container-sh{
+margin-bottom: 1.5em;
+/* border: 1px solid blue; */
+
+}
